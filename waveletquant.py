@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from skimage import data
 from skimage.color import rgb2gray
 from skimage.util import img_as_float
-from imageio import imread
+from imageio.v2 import imread
 
 def quantize(coeffs, step_size):
     """Quantizes the wavelet coefficients."""
@@ -24,7 +24,7 @@ image=image[1000:1128,1000:1128] #keep zoom in
 
 # Perform a 3-stage wavelet decomposition
 wavelet = 'bior4.4'
-coeffs = pywt.wavedec2(image, wavelet, level=6)
+coeffs = pywt.wavedec2(image, wavelet, level=3)
 #print("coeffs=", coeffs)
 
 # Apply fine and coarse quantization
