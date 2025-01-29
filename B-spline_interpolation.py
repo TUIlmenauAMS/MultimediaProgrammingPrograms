@@ -1,3 +1,6 @@
+#Program to demonstrate B-Spline interpolation and approximation.
+#Gerald Schuller, January 2025
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.interpolate import make_interp_spline #for pre-distortion of control points
