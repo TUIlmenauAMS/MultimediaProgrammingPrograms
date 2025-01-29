@@ -1,4 +1,4 @@
-#Program to demonstrate quantization artifacts for Wavelet coefficients.
+#Program to demonstrate quantization artifacts for Wavelet coefficients, using the Ilmenau test image.
 #Gerald Schuller, January 2025
 
 #pip3 install scikit-image
