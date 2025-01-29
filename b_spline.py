@@ -1,3 +1,6 @@
+#Program to compute and plot the cubic B-Spline basis function and compute and display a z-plane plot.
+#Gerald Schuller, January 2025
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.interpolate import BSpline

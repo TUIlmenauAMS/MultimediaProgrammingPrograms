@@ -1,3 +1,6 @@
+#Program to demonstrate B-Spline interpolation and approximation.
+#Gerald Schuller, January 2025
+
 #pip3 install sympy
 from sympy import symbols, Piecewise, integrate, simplify, And, pprint, piecewise_exclusive, latex
 
