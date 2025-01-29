@@ -1,3 +1,6 @@
+#Program to plot the frequency magnitude of a 3-level Wavelet filter bank, using pulses into the synthesis filter bank.
+#Gerald Schuller, January 2025
+
 import pywt
 import numpy as np
 import scipy.signal as sp
@@ -43,6 +46,7 @@ def synthesis_wavelet_filter_bank(wavelet_name='db4', levels=3):
     plt.title("Magnitude Frequency Response of " +str(levels)+ " level Daubechies Wavelet Filter Bank")
     plt.xlabel("Normalized frequency (pi is Nyquist frequency)")
     plt.ylabel("dB")
+    #plt.savefig('wavelet_daubechies_3level_fr_syn.pdf')
     plt.show()
     
     """

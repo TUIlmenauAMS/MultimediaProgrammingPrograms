@@ -1,3 +1,6 @@
+#Program to plot some 8x8 2D DCT basis images.
+#Gerald Schuller, January 2025
+ 
 import numpy as np
 import matplotlib.pyplot as plt
 

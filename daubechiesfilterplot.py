@@ -1,3 +1,6 @@
+#Program to plot the impulse response and magnitude frequency plot of the Daubechies Wavelet pair.
+#Gerald Schuller, January 2025
+
 #pip3 install PyWavelets
 import pywt
 import matplotlib.pyplot as plt

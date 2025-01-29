@@ -1,3 +1,7 @@
+#Program to demonstrate quantization artifacts for DCT coefficients.
+#Gerald Schuller, January 2025
+
+#pip3 install scikit-image
 import numpy as np
 import matplotlib.pyplot as plt
 from skimage import data, img_as_float
@@ -12,8 +16,8 @@ pic = imread('DSC04998.JPG')
 # Convert to luminance (Y channel)
 image = 0.299 * pic[:, :, 0] + 0.587 * pic[:, :, 1] + 0.114 * pic[:, :, 2]
 image=image[1000:1128,1000:1128]/np.max(np.abs(image))
-print(np.max(image))
-print(image.shape)
+#print(np.max(image))
+#print(image.shape)
 # Define block size for DCT
 block_size = 8
 

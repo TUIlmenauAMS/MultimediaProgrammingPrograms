@@ -1,3 +1,6 @@
+#Program to demonstrate quantization artifacts for Wavelet coefficients.
+#Gerald Schuller, January 2025
+
 #pip3 install scikit-image
 #pip3 install PyWavelets
 
