@@ -1,3 +1,6 @@
+#Program to demonstrate a 2D Wavelet filter bank subband decomposition of the Ilmenau test picture.
+#Gerald Schuller, January 2025
+
 #pip3 install PyWavelets
 import pywt
 import cv2
